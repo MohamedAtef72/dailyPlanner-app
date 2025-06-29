@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>dailyPlanner</title>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+  <div class="w-full max-w-md p-6 bg-white rounded-xl shadow-md space-y-6">
+    <h1 class="text-2xl font-bold text-center text-gray-800">ToDo-List App</h1>
+
+    <!-- Form Section -->
+    <div class="flex gap-2">
+      <input 
+        type="text" 
+        placeholder="Enter a task..."
+        id="input"
+        class="flex-1 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+      />
+      <input 
+        type="submit" 
+        value="Add Task"
+        id="add"
+        class=" bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 cursor-pointer transition"
+      />
+    </div>
+
+    <!-- Tasks Section -->
+    <div class="tasks space-y-2">
+      <!-- Tasks will be added here dynamically -->
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
