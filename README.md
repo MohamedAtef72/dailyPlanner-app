@@ -3,9 +3,9 @@
 A simple and minimalistic ToDo App built with **HTML**, **Vanilla JavaScript**, and **Tailwind CSS**.  
 Users can add, view, mark as complete, and delete tasks. Data is stored in **LocalStorage** so it persists on page reload.
 
-## 📸 Demo
+## Live Demo
 
-![ToDo App Screenshot](screenshot.png)
+[dailyPlanner-Live Demo](https://daily-planner-app-five.vercel.app/)
 
 ## 🚀 Features
 
@@ -28,7 +28,7 @@ Users can add, view, mark as complete, and delete tasks. Data is stored in **Loc
 
 ```bash
 git clone https://github.com/your-username/todo-app-tailwind.git
-
+```
 ## 📧 Contact
 
 **Mohamed Atef** - [LinkedIn](https://www.linkedin.com/in/mohamed-atef-088a55272)
